@@ -1,0 +1,23 @@
+---
+---
+
+@import '@primer/css/index.scss';
+
+.logo {
+  height: 42px;
+}
+
+.Header {
+  background-color: #25262f;
+  color: #fbfbff;
+  font-family: 'Reenie Beanie', sans-serif;
+  font-size: 28px;
+}
+
+.Header-link {
+  font-size: 22px;
+}
+
+.Header-link:hover {
+  color: #4a25d2;
+}
