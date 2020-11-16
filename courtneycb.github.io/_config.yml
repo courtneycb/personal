@@ -28,8 +28,10 @@ twitter_username: cbracefield
 github_username:  courtneycb
 
 # Build settings
+theme: null
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 sass:
   # Where you keep your scss files
