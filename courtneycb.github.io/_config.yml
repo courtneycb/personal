@@ -28,7 +28,6 @@ twitter_username: cbracefield
 github_username:  courtneycb
 
 # Build settings
-theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
