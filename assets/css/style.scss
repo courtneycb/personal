@@ -1,13 +1,31 @@
 ---
 ---
 
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #09090b;
+  color: white;
+}
+
+.name {
+  font-size: 2em;
+}
+
 .logo {
   height: 42px;
 }
 
+.reenie-beanie {
+  font-family: 'Reenie Beanie', sans-serif;
+}
+
+.subtitle {
+  font-size: 3em;
+  font-weight: 500;
+}
+
 .Header {
-  background-color: #25262f;
-  color: #fbfbff;
+  background-color: #09090b;
   font-family: 'Reenie Beanie', sans-serif;
   font-size: 28px;
 }
@@ -17,5 +35,12 @@
 }
 
 .Header-link:hover {
-  color: #4a25d2;
+  color: #6057f9;
+}
+
+.circle-badge-override {
+  height: 230px;
+  width: 230px;
+  // background-color: #4a25d2;
+  background-image: linear-gradient(#365cfb, #6057f9);
 }
