@@ -66,9 +66,15 @@ body {
   font-size: 2em;
 }
 
-.subtitle {
+.intro {
   font-size: 3em;
   font-weight: 500;
+}
+
+.subtitle {
+  font-size: 2.5em;
+  border-top: 2px solid #3f5bfb;
+  padding-top: 1rem;
 }
 
 .navbar {
@@ -106,6 +112,17 @@ body {
   flex: 0 0 100%;
   max-width: 100%;
   z-index: 1;
+}
+
+.img-border {
+  padding: 0.1rem;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.text {
+  color: #89899a;
+  font-size: 0.8rem;
 }
 
 @media (max-width: 827.98px) {
